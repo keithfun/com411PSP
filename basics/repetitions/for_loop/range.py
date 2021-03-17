@@ -11,15 +11,10 @@ print()
 
 for lvl_current in range(2,lvl_req+1,2):
   print("Beep's birghtness level: ", end="")
-<<<<<<< HEAD
   print("*"*lvl_current)
-  print("Bop's brightness level: ", end="")
+  print("B*op's brightness level: ", end="")
   print("*"*lvl_current)
-=======
-  print("**"*lvl_current)
-  print("Bop's brightness level: ", end="")
-  print("**"*lvl_current)
->>>>>>> 9e18c42f0afa6d19c37c2dc8c394c6bea0b6abcd
+ 
   print()
 
 print("Adjustments complete!")
